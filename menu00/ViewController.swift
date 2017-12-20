@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let vc = menuViewController()
+        self.view =  Bundle.main.loadNibNamed("menuViewController", owner: vc)![0] as! UIView
         // Do any additional setup after loading the view, typically from a nib.
     }
 

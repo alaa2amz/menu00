@@ -12,6 +12,12 @@
 		002B51921FEA47DD0081BF29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002B51901FEA47DD0081BF29 /* Main.storyboard */; };
 		002B51941FEA47DD0081BF29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002B51931FEA47DD0081BF29 /* Assets.xcassets */; };
 		002B51971FEA47DD0081BF29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002B51951FEA47DD0081BF29 /* LaunchScreen.storyboard */; };
+		002B51A01FEA48110081BF29 /* menuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B519E1FEA48110081BF29 /* menuTableViewController.swift */; };
+		002B51A11FEA48110081BF29 /* menuTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002B519F1FEA48110081BF29 /* menuTableViewController.xib */; };
+		002B51A61FEA499F0081BF29 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B51A41FEA499F0081BF29 /* menuViewController.swift */; };
+		002B51A71FEA499F0081BF29 /* menuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002B51A51FEA499F0081BF29 /* menuViewController.xib */; };
+		002B51AD1FEA5DC80081BF29 /* MenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B51AC1FEA5DC80081BF29 /* MenuHeader.swift */; };
+		002B51AF1FEA5FA20081BF29 /* menuItems.txt in Resources */ = {isa = PBXBuildFile; fileRef = 002B51AE1FEA5FA10081BF29 /* menuItems.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		002B51931FEA47DD0081BF29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		002B51961FEA47DD0081BF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		002B51981FEA47DD0081BF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002B519E1FEA48110081BF29 /* menuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuTableViewController.swift; sourceTree = "<group>"; };
+		002B519F1FEA48110081BF29 /* menuTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = menuTableViewController.xib; sourceTree = "<group>"; };
+		002B51A41FEA499F0081BF29 /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		002B51A51FEA499F0081BF29 /* menuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = menuViewController.xib; sourceTree = "<group>"; };
+		002B51AC1FEA5DC80081BF29 /* MenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeader.swift; sourceTree = "<group>"; };
+		002B51AE1FEA5FA10081BF29 /* menuItems.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = menuItems.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,12 @@
 		002B51801FEA47DC0081BF29 = {
 			isa = PBXGroup;
 			children = (
+				002B51AC1FEA5DC80081BF29 /* MenuHeader.swift */,
+				002B51AE1FEA5FA10081BF29 /* menuItems.txt */,
+				002B51A41FEA499F0081BF29 /* menuViewController.swift */,
+				002B51A51FEA499F0081BF29 /* menuViewController.xib */,
+				002B519E1FEA48110081BF29 /* menuTableViewController.swift */,
+				002B519F1FEA48110081BF29 /* menuTableViewController.xib */,
 				002B518B1FEA47DD0081BF29 /* menu00 */,
 				002B518A1FEA47DC0081BF29 /* Products */,
 			);
@@ -123,6 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002B51A11FEA48110081BF29 /* menuTableViewController.xib in Resources */,
+				002B51A71FEA499F0081BF29 /* menuViewController.xib in Resources */,
+				002B51AF1FEA5FA20081BF29 /* menuItems.txt in Resources */,
 				002B51971FEA47DD0081BF29 /* LaunchScreen.storyboard in Resources */,
 				002B51941FEA47DD0081BF29 /* Assets.xcassets in Resources */,
 				002B51921FEA47DD0081BF29 /* Main.storyboard in Resources */,
@@ -138,6 +159,9 @@
 			files = (
 				002B518F1FEA47DD0081BF29 /* ViewController.swift in Sources */,
 				002B518D1FEA47DD0081BF29 /* AppDelegate.swift in Sources */,
+				002B51A01FEA48110081BF29 /* menuTableViewController.swift in Sources */,
+				002B51AD1FEA5DC80081BF29 /* MenuHeader.swift in Sources */,
+				002B51A61FEA499F0081BF29 /* menuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
