@@ -12,13 +12,25 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+   var menu = menuViewController(nibName: "menuViewController", bundle: .main)
+    
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        let menu = menuViewController(nibName: "menuViewController", bundle: .main)
-        window?.rootViewController = menu
-        window?.makeKeyAndVisible()
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions
+        launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+          menu = menuViewController(nibName: "menuViewController", bundle: .main)
+//        window = UIWindow(frame: CGRect(x: 20, y: 20, width: 200, height: 400))
+//        print(UIScreen.main.bounds)
+//        //20,20,300,400
+//        window?.backgroundColor = UIColor.green
+//        
+//       
+//        
+//        window?.rootViewController = menu
+//        window?.makeKeyAndVisible()
+        
         // Override point for customization after application launch.
+        
         return true
     }
 

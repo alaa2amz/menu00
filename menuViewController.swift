@@ -10,6 +10,7 @@ import UIKit
 
 class menuViewController: UIViewController,UITableViewDataSource {
     @IBOutlet weak var itemsTable: UITableView!
+    var shown = false
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return items[section].headerName
     }

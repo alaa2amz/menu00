@@ -18,6 +18,8 @@
 		002B51A71FEA499F0081BF29 /* menuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002B51A51FEA499F0081BF29 /* menuViewController.xib */; };
 		002B51AD1FEA5DC80081BF29 /* MenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B51AC1FEA5DC80081BF29 /* MenuHeader.swift */; };
 		002B51AF1FEA5FA20081BF29 /* menuItems.txt in Resources */ = {isa = PBXBuildFile; fileRef = 002B51AE1FEA5FA10081BF29 /* menuItems.txt */; };
+		0056EDB41FEBE81200FBD5B6 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0056EDB31FEBE81200FBD5B6 /* Menu.swift */; };
+		0056EDB61FEBEDBA00FBD5B6 /* menuuExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0056EDB51FEBEDBA00FBD5B6 /* menuuExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		002B51A51FEA499F0081BF29 /* menuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = menuViewController.xib; sourceTree = "<group>"; };
 		002B51AC1FEA5DC80081BF29 /* MenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeader.swift; sourceTree = "<group>"; };
 		002B51AE1FEA5FA10081BF29 /* menuItems.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = menuItems.txt; sourceTree = "<group>"; };
+		0056EDB31FEBE81200FBD5B6 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		0056EDB51FEBEDBA00FBD5B6 /* menuuExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuuExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 				002B51A41FEA499F0081BF29 /* menuViewController.swift */,
 				002B51A51FEA499F0081BF29 /* menuViewController.xib */,
 				002B519E1FEA48110081BF29 /* menuTableViewController.swift */,
+				0056EDB51FEBEDBA00FBD5B6 /* menuuExtension.swift */,
 				002B519F1FEA48110081BF29 /* menuTableViewController.xib */,
 				002B518B1FEA47DD0081BF29 /* menu00 */,
 				002B518A1FEA47DC0081BF29 /* Products */,
@@ -74,6 +79,7 @@
 			children = (
 				002B518C1FEA47DD0081BF29 /* AppDelegate.swift */,
 				002B518E1FEA47DD0081BF29 /* ViewController.swift */,
+				0056EDB31FEBE81200FBD5B6 /* Menu.swift */,
 				002B51901FEA47DD0081BF29 /* Main.storyboard */,
 				002B51931FEA47DD0081BF29 /* Assets.xcassets */,
 				002B51951FEA47DD0081BF29 /* LaunchScreen.storyboard */,
@@ -157,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0056EDB61FEBEDBA00FBD5B6 /* menuuExtension.swift in Sources */,
 				002B518F1FEA47DD0081BF29 /* ViewController.swift in Sources */,
 				002B518D1FEA47DD0081BF29 /* AppDelegate.swift in Sources */,
+				0056EDB41FEBE81200FBD5B6 /* Menu.swift in Sources */,
 				002B51A01FEA48110081BF29 /* menuTableViewController.swift in Sources */,
 				002B51AD1FEA5DC80081BF29 /* MenuHeader.swift in Sources */,
 				002B51A61FEA499F0081BF29 /* menuViewController.swift in Sources */,
@@ -299,7 +307,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6Z3S59G3W;
 				INFOPLIST_FILE = menu00/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arena.menu00;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -313,7 +323,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6Z3S59G3W;
 				INFOPLIST_FILE = menu00/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arena.menu00;
 				PRODUCT_NAME = "$(TARGET_NAME)";
